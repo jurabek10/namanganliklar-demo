@@ -664,6 +664,10 @@ img {
     line-height: normal;
 }
 
+.contact-page-content {
+    display: flex;
+}
+
 .contact-page-form {
     display: flex;
     flex-direction: column;
@@ -673,6 +677,11 @@ img {
 .contact-page-form-submit {
     align-self: self-end;
     margin-top: 20px;
+}
+
+.contact-page-info {
+    width: 494px;
+    margin-left: 10px;
 }
 
 
@@ -706,6 +715,41 @@ img {
 .form-field-textarea {
     min-height: 180px;
     resize: vertical;
+}
+
+
+/* DEFINITIONS-CARD */
+.definitions-card {
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #f6f6f6;
+    color: #000;
+}
+
+.definitions-card-item {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.definitions-card-item:not(:last-child) {
+    border-bottom: 1px solid #d2d2d2
+}
+
+.definitions-card-title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.definitions-card-value {
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 
